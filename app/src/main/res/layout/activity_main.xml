@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.inclassassignment05_rocioc.MainActivity">
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country" />
+
+    <EditText
+        android:id="@+id/population"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Population" />
+
+    <CheckBox
+        android:id="@+id/president"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is the president a woman?" />
+
+    <EditText
+        android:id="@+id/more_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="More Information" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:onClick="submit" />
+
+</LinearLayout>
