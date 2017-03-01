@@ -21,7 +21,8 @@
         android:id="@+id/population"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Population" />
+        android:hint="Population"
+        android:inputType="number" />
 
     <CheckBox
         android:id="@+id/president"
